@@ -5,7 +5,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/nitinkumar30/Capgemini-AutomationEngineer-Interview?color=green)
 ![Interview Round](https://img.shields.io/badge/Interview-Round%201-orange)
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nitinkumar30/Capgemini-AutomationEngineer-Interview/.github%2Fworkflows%2Ftest.yml?branch=master&style=plastic)
 
 Welcome! 👋  
 This repository contains the solutions to Python-based coding questions asked during my **1st Technical Interview Round** with **Capgemini**, held on 🗓️ *May 6, 2025*.
