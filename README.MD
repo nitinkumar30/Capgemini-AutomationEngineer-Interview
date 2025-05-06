@@ -1,8 +1,8 @@
 # 💼 Capgemini Technical Interview – Round 1
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/your-username/your-repo/python-runner.yml?label=GitHub%20Actions&logo=github)
-![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo?color=green)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/nitinkumar30/Capgemini-AutomationEngineer-Interview/test.yml?label=GitHub%20Actions&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/nitinkumar30/Capgemini-AutomationEngineer-Interview?color=green)
 ![Interview Round](https://img.shields.io/badge/Interview-Round%201-orange)
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nitinkumar30/Capgemini-AutomationEngineer-Interview/.github%2Fworkflows%2Ftest.yml?branch=master&style=plastic)
