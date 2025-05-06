@@ -1,4 +1,4 @@
-name: Run all assignments
+name: Run all Round1 assignments
 
 on:
   push:
