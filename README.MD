@@ -6,8 +6,6 @@
 ![Interview Round 1](https://img.shields.io/badge/Interview-Round%201-orange)
 ![Interview Round 2](https://img.shields.io/badge/Interview-Round%202-orange)
 
-Thanks! Based on your provided Round 2 question, here's the **fully updated and cleaned-up README** reflecting both rounds and properly documenting the new solution:
-
 ---
 
 Welcome! 👋
@@ -112,5 +110,7 @@ python Round2/round2_ques1.py
 
 ---
 
-Let me know if you want help organizing the folder structure or adding test cases as well.
+## Interviee
+
+[Nitin Kumar](https://linkedin.com/in/nitin30kumar/)
 
