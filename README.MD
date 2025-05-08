@@ -1,66 +1,116 @@
-# 💼 Capgemini Technical Interview – Round 1
+# 💼 Capgemini Technical Interview – Rounds 1 & 2
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/nitinkumar30/Capgemini-AutomationEngineer-Interview/test.yml?label=GitHub%20Actions&logo=github)
 ![Latest Commit](https://img.shields.io/github/last-commit/nitinkumar30/Capgemini-AutomationEngineer-Interview?color=green)
-![Interview Round](https://img.shields.io/badge/Interview-Round%201-orange)
+![Interview Round 1](https://img.shields.io/badge/Interview-Round%201-orange)
+![Interview Round 2](https://img.shields.io/badge/Interview-Round%202-orange)
 
+Thanks! Based on your provided Round 2 question, here's the **fully updated and cleaned-up README** reflecting both rounds and properly documenting the new solution:
 
-Welcome! 👋  
-This repository contains the solutions to Python-based coding questions asked during my **1st Technical Interview Round** with **Capgemini**, held on 🗓️ *May 6, 2025*.
+---
+
+Welcome! 👋
+This repository contains Python-based coding solutions from my **Technical Interview Rounds** with **Capgemini** for the position of **Automation Engineer**.
 
 ---
 
 ## 🧠 Interview Overview
 
-- ⏰ **Duration:** 30 minutes  
-- 🧪 **Type:** Technical Interview  
-- 💬 **Topics Covered:**  
-  - Python programming 🐍  
-  - API Testing (discussed, but not coded)  
-  - Focus on logic building and implementation  
-  - Real-time code explanation and reasoning  
+### 🟠 Round 1 – *May 6, 2025*
 
+* ⏰ **Duration:** 30 minutes
+* 🧪 **Format:** Technical Interview (Live coding)
+* 💬 **Topics Covered:**
+
+  * Core Python programming
+  * Logical and algorithmic problem-solving
+  * Basic API Testing (conceptual discussion)
+
+### 🔵 Round 2 – *May 8, 2025*
+
+* ⏰ **Duration:** \~20 minutes
+* 🧪 **Format:** Single coding problem with explanation
+* 💬 **Focus Area:**
+
+  * String manipulation and dictionary handling
+  * In-place logic explanation and optimization
 
 ---
 
 ## 📌 Problem Statements & Solutions
 
-### 1️⃣ `ques1.py` – Sum Keys Based on Vowel Values
+### 🔹 Round 1
 
-🔍 **Task:**  
-Given a dictionary `D = {1:"a", 7:"b", 3:"e", 11:"z", 21:"o"}`, find the **sum of keys** whose corresponding **values are vowels** (a, e, i, o, u).
+#### 1️⃣ `ques1.py` – Sum Keys Based on Vowel Values
 
-💡 **Logic Used:**  
-Used a generator expression with `sum()` to iterate over key-value pairs and filter based on vowel values.
+🔍 **Problem:**
+Given a dictionary `D = {1:"a", 7:"b", 3:"e", 11:"z", 21:"o"}`, calculate the sum of keys whose values are vowels.
 
----
-
-### 2️⃣ `ques2.py` – Second Highest in a List
-
-🔍 **Task:**  
-Given a list `ls = [72, 35, 83]`, find the **second highest number** without using built-in functions like `sort()`.
-
-💡 **Logic Used:**  
-Maintained `first` and `second` highest values using a single loop for optimal time complexity.
+💡 **Approach:**
+Used a generator expression with `sum()` to filter key-value pairs where values are in a set of vowels.
 
 ---
 
-### 3️⃣ `ques3.py` – Longest Common Prefix
+#### 2️⃣ `ques2.py` – Second Highest in a List
 
-🔍 **Task:**  
-Given `strs = ["flower", "flow", "flight"]`, find the **longest common prefix** among them.
+🔍 **Problem:**
+Find the second highest number in a list like `ls = [72, 35, 83]` without using built-in methods like `sort()`.
 
-💡 **Logic Used:**  
-Used `startswith()` in a loop to reduce the prefix until all strings match the prefix.
+💡 **Approach:**
+Iterated through the list using a single pass, maintaining `first` and `second` max variables for efficiency.
+
+---
+
+#### 3️⃣ `ques3.py` – Longest Common Prefix
+
+🔍 **Problem:**
+Given `strs = ["flower", "flow", "flight"]`, determine the longest common prefix.
+
+💡 **Approach:**
+Iteratively reduced the prefix string using `startswith()` until all strings shared the same starting substring.
+
+---
+
+### 🔹 Round 2
+
+#### 4️⃣ `round2_ques1.py` – Reverse Dictionary Values
+
+🔍 **Problem:**
+Given a dictionary like:
+
+```python
+intro = {'name': 'Nitin', 'phone': 9137887, 'City': 'Pune'}
+```
+
+Transform the dictionary such that each value is reversed. For strings, reverse the string; for integers, convert to string, reverse, then cast back to integer.
+
+📥 **Expected Output:**
+
+```python
+{'name': 'nitiN', 'phone': 7887319, 'City': 'enuP'}
+```
+
+💡 **Approach:**
+
+* Wrote a helper function `reverse_string()` using a loop.
+* Applied this function conditionally on values, converting integers to strings before reversing.
+* Constructed a new dictionary with reversed values.
 
 ---
 
 ## ⚙️ Running the Scripts
 
-You can run each file individually using Python 3:
+You can execute each file using Python 3:
 
 ```bash
 python Round1/ques1.py
 python Round1/ques2.py
 python Round1/ques3.py
+python Round2/round2_ques1.py
+```
+
+---
+
+Let me know if you want help organizing the folder structure or adding test cases as well.
+
