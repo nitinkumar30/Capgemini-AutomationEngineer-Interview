@@ -110,7 +110,7 @@ python Round2/round2_ques1.py
 
 ---
 
-## Interviee
+## interviewee
 
 [Nitin Kumar](https://linkedin.com/in/nitin30kumar/)
 
