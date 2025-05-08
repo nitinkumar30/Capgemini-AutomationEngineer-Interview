@@ -105,7 +105,7 @@ You can execute each file using Python 3:
 python Round1/ques1.py
 python Round1/ques2.py
 python Round1/ques3.py
-python Round2/round2_ques1.py
+python Round2/ques1.py
 ```
 
 ---
